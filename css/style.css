@@ -9,6 +9,68 @@ Author URI: http://www.themewagon.com
 /* =Common Styles
 -------------------------------------------------------------- */
 
+#countdown {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap; /* IMPORTANT pour éviter les débordements */
+}
+
+/* Style des blocs */
+#countdown div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1;
+}
+
+/* Chiffres */
+#countdown div span:first-child {
+    font-size: 110px;
+    font-weight: 800;
+}
+
+/* Labels */
+#countdown div span:last-child {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #countdown {
+        gap: 25px;
+    }
+
+    #countdown div span:first-child {
+        font-size: 70px;
+    }
+
+    #countdown div span:last-child {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #countdown {
+        gap: 15px;
+    }
+
+    #countdown div span:first-child {
+        font-size: 48px;
+    }
+
+    #countdown div span:last-child {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}
+
+
+
 *,
 *:before,
 *:after {
