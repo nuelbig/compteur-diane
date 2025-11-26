@@ -71,8 +71,7 @@ $('#countdown').countdown({
 
 
 // Birthday Animation
-// Date cible pour TEST : 25/11/2025 à 19h50
-const targetDate = new Date(2025, 11, 14, 0, 0, 0).getTime();
+const targetDate = new Date(2025, 10, 26, 12, 8, 0).getTime();
 
 let animationPlayed = false;
 
@@ -366,7 +365,7 @@ function createExplosionParticles() {
 function showBirthdayMessage(countdownEl) {
     countdownEl.innerHTML = `
         <span class="birthday-message" style="font-size: 0.5em; font-weight: 100; letter-spacing: 2px;">
-            🎉 JOYEUX ANNIVERSAIRE ODILE! 🎉
+            🎉 JOYEUX ANNIVERSAIRE Didi 🩵! 🎉
         </span>
     `;
 }
