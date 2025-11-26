@@ -71,7 +71,7 @@ $('#countdown').countdown({
 
 
 // Birthday Animation
-const targetDate = new Date(2025, 10, 26, 12, 8, 0).getTime();
+const targetDate = new Date(2025, 11, 20, 0, 0, 0).getTime();
 
 let animationPlayed = false;
 
