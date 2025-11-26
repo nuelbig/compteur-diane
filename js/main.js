@@ -97,23 +97,23 @@ setInterval(() => {
 
     countdownEl.innerHTML = `
     <div style="display:flex; flex-direction:column; text-align:center; line-height:1;">
-        <span style="font-size:110px; font-weight:800;">${days}</span>
-        <span style="font-size:28px; font-weight:600; margin-top:8px; letter-spacing:2px;">JOURS</span>
+        <span style="font-size:90px; font-weight:500;">${days}</span>
+        <span style="font-size:28px; font-weight:400; margin-top:8px; letter-spacing:2px;">JOURS</span>
     </div>
 
     <div style="display:flex; flex-direction:column; text-align:center; line-height:1;">
-        <span style="font-size:110px; font-weight:800;">${hours}</span>
-        <span style="font-size:28px; font-weight:600; margin-top:8px; letter-spacing:2px;">HEURES</span>
+        <span style="font-size:90px; font-weight:500;">${hours}</span>
+        <span style="font-size:28px; font-weight:400; margin-top:8px; letter-spacing:2px;">HEURES</span>
     </div>
 
     <div style="display:flex; flex-direction:column; text-align:center; line-height:1;">
-        <span style="font-size:110px; font-weight:800;">${minutes}</span>
-        <span style="font-size:28px; font-weight:600; margin-top:8px; letter-spacing:2px;">MIN</span>
+        <span style="font-size:90px; font-weight:500;">${minutes}</span>
+        <span style="font-size:28px; font-weight:400; margin-top:8px; letter-spacing:2px;">MIN</span>
     </div>
 
     <div style="display:flex; flex-direction:column; text-align:center; line-height:1;">
-        <span style="font-size:110px; font-weight:800;">${seconds}</span>
-        <span style="font-size:28px; font-weight:600; margin-top:8px; letter-spacing:2px;">SEC</span>
+        <span style="font-size:90px; font-weight:500;">${seconds}</span>
+        <span style="font-size:28px; font-weight:400; margin-top:8px; letter-spacing:2px;">SEC</span>
     </div>
     `;
 }, 1000);
